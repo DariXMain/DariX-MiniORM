@@ -285,12 +285,3 @@ class DMO:
             )
         finally:
             cursor.close()
-    
-sql = DSS(
-    host="localhost",
-    port=3306,
-    username="root",
-    password="",
-    database="darixshop"
-)
-sql.Connect()
