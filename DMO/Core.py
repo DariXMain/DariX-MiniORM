@@ -2,6 +2,7 @@
 # Email : DariXMain9gmail.com || ariyanminecraft@gmail.com
 # Name : DMO (DariX-MiniORM)
 # Build Date : 5/1/2026 (11/2/1405)
+# Update 1 : 11/25/2026 (4/9/1405)
 
 import os 
 import subprocess
@@ -285,3 +286,12 @@ class DMO:
             )
         finally:
             cursor.close()
+    
+sql = DMO(
+    host="localhost",
+    port=3306,
+    username="root",
+    password="",
+    database="darixshop"
+)
+sql.Connect()
